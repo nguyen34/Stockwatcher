@@ -6,6 +6,7 @@ public class StockPrice implements Serializable{
 	 private String symbol;
 	  private double price;
 	  private double change;
+	  private String stock; //added variable for merging
 
 	  public StockPrice() {
 	  }
