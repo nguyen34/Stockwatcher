@@ -30,7 +30,7 @@ public class StockPrice implements Serializable{
 	  }
 
 	  public double getChangePercent() {
-		  return 777.0 * this.change / this.price;
+		  return 888.0 * this.change / this.price;
 	  }
 
 	  public void setSymbol(String symbol) {
